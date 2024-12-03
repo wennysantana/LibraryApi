@@ -42,7 +42,7 @@ cd nome-do-repositorio
 - **Node.js para executar o back-end.**
 - **npm ou yarn para gerenciar pacotes.**
 
-##🔧 Instalando Dependências
+## 🔧 Instalando Dependências
 
 **Instale as dependências do back-end:**
 ```
