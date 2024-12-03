@@ -26,7 +26,7 @@ Este projeto é uma API RESTful integrada a uma interface web para gerenciar liv
 
 **1. Clone o repositório para sua máquina:**
 ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/wennysantana/LibraryApi
 ```
 **2. Navegue até a pasta do projeto:**
 ```
