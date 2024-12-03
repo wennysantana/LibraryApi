@@ -112,5 +112,5 @@ git push origin minha-nova-funcionalidade
 - **[Wenny Santana](https://github.com/wennysantana)**  
   *Responsável pela configuração do ambiente no Github*
 
-##📜 Licença
+## 📜 Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
