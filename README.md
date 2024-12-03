@@ -54,3 +54,63 @@ npm install
 cd ../web
 npm install
 ```
+## ▶️ Executando o Projeto
+**Inicie os contêineres usando o Docker Compose:**
+```
+docker-compose up
+```
+**Acesse a interface web no navegador:**
+```
+http://localhost:3000
+```
+**Use as rotas da API no endpoint:**
+```
+http://localhost:5000/api
+```
+## 🤝 Contribuindo
+**Contribuições são bem-vindas! Para contribuir, siga estas etapas:**
+
+**1.Faça um fork do projeto:**
+```
+git fork https://github.com/seu-usuario/nome-do-repositorio.git
+```
+**2.Crie um branch para sua funcionalidade:**
+```
+git checkout -b minha-nova-funcionalidade
+```
+**3.Faça um commit das suas alterações:**
+```
+git commit -m "Adicionei nova funcionalidade"
+```
+**4.Envie para o branch principal:**
+```
+git push origin minha-nova-funcionalidade
+```
+**5.Abra um pull request na página do repositório.**
+
+## 📸 Imagens do Projeto
+**Tela Principal da Interface Web**
+
+**Cadastro de Livros**
+
+**Gerenciamento de Usuários**
+
+**Relatório de Livros Mais Emprestados**
+
+**Controle de Empréstimos Pendentes**
+
+## 👩‍💻 Autores
+
+- **[André Luis Cavalcanti](https://github.com/andrelca)**  
+  *Responsável pela documentação.*
+- **[Daniel Aretakis](https://github.com/DanielAretakis)**  
+  *Desenvolvedor Front-end e responsável pela interface web.*
+- **[Lucas José](https://github.com/LucasJLM)**  
+  *Scrum master do projeto*
+- **[Rafael Hilário](https://github.com/RafaelHilario)**  
+  *Desenvolvedor Back-end e responsável pela API.*
+- **[Wenny Santana](https://github.com/wennysantana)**  
+  *Responsável pela configuração do ambiente no Github*
+
+##📜 Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
