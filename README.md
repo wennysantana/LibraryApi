@@ -50,10 +50,7 @@ cd api
 npm install
 ```
 **Instale as dependências da interface web:**
-```
-cd ../web
-npm install
-```
+
 ## ▶️ Executando o Projeto
 **Inicie os contêineres usando o Docker Compose:**
 ```
