@@ -1,6 +1,6 @@
 # Biblioteca API e Interface Web
 
-![Logo do Projeto](link-da-imagem-da-logo-aqui) <!-- Substitua com o link da sua logo ou remova essa linha -->
+![Logo do Projeto](link-da-imagem-da-logo-aqui) 
 
 ## 📚 Descrição do Projeto
 
@@ -22,11 +22,35 @@ Este projeto é uma API RESTful integrada a uma interface web para gerenciar liv
 - **Conteinerização:**
   - A API e a interface web são executadas em contêineres Docker.
 
----
-
 ## 🛠️ Como Baixar o Repositório
 
-1. Clone o repositório para sua máquina:
+**1. Clone o repositório para sua máquina:**
 ```
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
+**2. Navegue até a pasta do projeto:**
+```
+cd nome-do-repositorio
+```
+**3. Configure as dependências e o ambiente conforme descrito na seção Pré-requisitos.**
+
+## 🛠️ Pré-requisitos
+
+**Certifique-se de ter as seguintes ferramentas instaladas:**
+
+- **Docker para criar e gerenciar contêineres.**
+- **Node.js para executar o back-end.**
+- **npm ou yarn para gerenciar pacotes.**
+
+##🔧 Instalando Dependências
+
+**Instale as dependências do back-end:**
+```
+cd api
+npm install
+```
+**Instale as dependências da interface web:**
+```
+cd ../web
+npm install
 ```
