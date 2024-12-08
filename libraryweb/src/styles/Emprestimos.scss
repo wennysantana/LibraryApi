@@ -1,0 +1,126 @@
+.emprestimos-container {
+  padding: 20px;
+  background-color: #f5f7fa; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 40px auto 0;
+
+  h2 {
+    font-size: 2rem;
+    color: #4a90e2; 
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .novo-emprestimo {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      font-size: 1.5rem;
+      color: #4a90e2; 
+      margin-bottom: 10px;
+    }
+
+    select,
+    input {
+      padding: 8px 15px;
+      margin-bottom: 10px;
+      margin-left: 12px;
+      border: 1px solid #ced4da;
+      border-radius: 8px;
+      width: 250px; 
+      max-width: 300px;
+      font-size: 0.9rem;
+      color: #333;
+    }
+    
+    input:focus {
+      border-color: #4a90e2;
+      box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+      outline: none;
+    }
+
+    button {
+      flex: 1 1 100%;
+      background-color: #5bc0de;
+      color: white;
+      border: none;
+      padding: 13px 15px;
+      margin-left: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+        background-color: #48b0d0;
+      }
+    }
+  }
+
+  .lista-emprestimos {
+    h3 {
+      font-size: 1.5rem;
+      color: #4a90e2; /* Azul consistente */
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background-color: #ffffff; /* Fundo branco */
+        margin-bottom: 15px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        p {
+          font-size: 1rem;
+          color: #333;
+
+          strong {
+            color: #4a90e2; /* Destaque azul */
+          }
+        }
+
+        button {
+          background-color: #f56c6c;
+          color: white;
+          border: none;
+          padding: 8px 12px;
+          border-radius: 8px;
+          cursor: pointer;
+          font-size: 0.9rem;
+          transition: all 0.3s ease;
+  
+          &:hover {
+            background-color: #e64545;
+            transform: scale(1.02);
+          }
+  
+          &.edit-btn {
+            background-color: #5bc0de;
+            margin-right: 10px;
+  
+            &:hover {
+              background-color: #48b0d0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

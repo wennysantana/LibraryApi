@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.usuarios-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    font-size: 2rem;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+
+  .add-usuario-form {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    input {
+      flex: 1 1 calc(50% - 15px);
+      padding: 10px;
+      border: 1px solid #ced4da;
+      border-radius: 8px;
+      font-size: 1rem;
+
+      &:focus {
+        outline: none;
+        border-color: #5bc0de;
+        box-shadow: 0 0 8px rgba(91, 192, 222, 0.4);
+      }
+    }
+
+    button {
+      flex: 1 1 100%;
+      background-color: #5bc0de;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+        background-color: #48b0d0;
+      }
+    }
+  }
+
+  .usuario-list {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      strong {
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: #343a40;
+      }
+
+      .usuario-info {
+        flex: 1;
+        color: #6c757d;
+      }
+
+      button {
+        background-color: #f56c6c;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: #e64545;
+          transform: scale(1.05);
+        }
+
+        &.edit-btn {
+          background-color: #5bc0de;
+          margin-right: 10px;
+
+          &:hover {
+            background-color: #48b0d0;
+          }
+        }
+      }
+    }
+  }
+
+  .edit-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input {
+      width: 100%;
+      padding: 15px;
+      border: 1px solid #ced4da;
+      border-radius: 8px;
+
+      &:focus {
+        outline: none;
+        border-color: #5bc0de;
+        box-shadow: 0 0 8px rgba(91, 192, 222, 0.4);
+      }
+    }
+
+    button {
+      align-self: flex-start;
+    }
+  }
+}

@@ -8,9 +8,8 @@ Obrigado por querer contribuir! Este guia explica como você pode colaborar no d
 
 Este é um sistema para gerenciar uma biblioteca, incluindo CRUD de livros e usuários, registro de empréstimos e devoluções, além de relatórios básicos. O projeto é composto por:
 
-- **Back-end:** Uma API RESTful desenvolvida em Node.js com Express.
-- **Front-end:** Interface web em HTML/CSS.
-- **Conteinerização:** Uso de Docker para gerenciar os serviços.
+- **Back-end:** Armazenamento de dados realizado com Firebase
+- **Front-end:** Interface web em ReactJs.
 
 
 ## 📥 Como Baixar o Repositório
@@ -25,14 +24,10 @@ Siga estas etapas para configurar o projeto localmente:
 ```
 cd nome-do-repositorio
 ```
-3. **Instale as dependências do back-end:**
+3. **Instale as dependências:**
 ```
 cd api
 npm install
-```
-4. **Inicie os contêineres Docker:**
-```
-docker-compose up
 ```
 **Agora você pode acessar o projeto.**
 

@@ -1,0 +1,28 @@
+.relatorios-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  
+    h2 {
+      font-size: 24px;
+      color: #4682b4;
+      margin-bottom: 10px;
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+  
+      li {
+        background-color: #fff;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+  
+        &:hover {
+          background-color: #eef7ff;
+        }
+      }
+    }
+  }
+  
