@@ -75,12 +75,16 @@ git push origin minha-nova-funcionalidade
 
 ## 📸 Imagens do Projeto
 **Tela Principal da Interface Web**
+![image](https://github.com/user-attachments/assets/b8e21aaa-4a08-4bcb-bb02-bf8261c0218f)
 
 **Cadastro de Livros**
+![image](https://github.com/user-attachments/assets/74dabc13-5861-4aaf-8516-3a76f43260ee)
 
 **Gerenciamento de Usuários**
+![image](https://github.com/user-attachments/assets/8a858918-ebf3-4a20-bde9-8369fca95308)
 
 **Controle de Empréstimos Pendentes**
+![image](https://github.com/user-attachments/assets/79fc87d5-7b3a-423c-a65d-f7caaa7f4237)
 
 ## 👩‍💻 Autores
 
