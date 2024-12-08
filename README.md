@@ -25,7 +25,7 @@ Este projeto é uma interface web para gerenciar livros em uma biblioteca. O sis
 ```
 **2. Navegue até a pasta do projeto:**
 ```
-cd nome-do-repositorio
+cd LibraryApi
 ```
 **3. Configure as dependências e o ambiente conforme descrito na seção Pré-requisitos.**
 
@@ -57,7 +57,7 @@ http://localhost:3000
 
 **1.Faça um fork do projeto:**
 ```
-git fork https://github.com/seu-usuario/nome-do-repositorio.git
+git fork https://github.com/wennysantana/LibraryApi
 ```
 **2.Crie um branch para sua funcionalidade:**
 ```
